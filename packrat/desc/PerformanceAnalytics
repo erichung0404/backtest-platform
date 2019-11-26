@@ -1,0 +1,55 @@
+Package: PerformanceAnalytics
+Type: Package
+Title: Econometric Tools for Performance and Risk Analysis
+Authors@R: c(
+  person(given=c("Brian","G."),family="Peterson",role=c("cre","aut","cph"), email="brian@braverock.com")
+  , person(given="Peter",family="Carl",role=c("aut","cph"), email="peter@braverock.com")
+  , person(given="Kris",family="Boudt",role=c("ctb","cph"))
+  , person(given="Ross",family="Bennett",role="ctb")
+  , person(given="Joshua",family="Ulrich",role="ctb")
+  , person(given="Eric",family="Zivot",role="ctb")
+  , person(given="Matthieu",family="Lestel",role="ctb")
+  , person(given="Kyle",family="Balkissoon",role="ctb")  
+  , person(given="Diethelm",family="Wuertz",role="ctb")  
+  )
+Version: 1.5.0
+Date: $Date$
+Description: Collection of econometric functions for
+    performance and risk analysis. This package aims to aid
+    practitioners and researchers in utilizing the latest
+    research in analysis of non-normal return streams.  In
+    general, it is most tested on return (rather than
+    price) data on a regular scale, but most functions will
+    work with irregular return data as well, and increasing
+    numbers of functions will work with P&L or price data
+    where possible.
+Imports: zoo
+Depends: R (>= 3.0.0), xts (>= 0.10.0)
+Suggests: Hmisc, MASS, quantmod, gamlss, gamlss.dist, robustbase,
+        quantreg, gplots
+License: GPL-2 | GPL-3
+URL: http://r-forge.r-project.org/projects/returnanalytics/
+Copyright: (c) 2004-2016
+RoxygenNote: 5.0.1
+Author: Brian G. Peterson [cre, aut, cph],
+  Peter Carl [aut, cph],
+  Kris Boudt [ctb, cph],
+  Ross Bennett [ctb],
+  Joshua Ulrich [ctb],
+  Eric Zivot [ctb],
+  Matthieu Lestel [ctb],
+  Kyle Balkissoon [ctb],
+  Diethelm Wuertz [ctb]
+Maintainer: Brian G. Peterson <brian@braverock.com>
+Built: R 3.2.5; i386-w64-mingw32; 2016-08-29 09:02:49 UTC; windows
+Archs: i386, x64
+RemoteType: github
+RemoteHost: api.github.com
+RemoteRepo: PerformanceAnalytics
+RemoteUsername: naturalsmen
+RemoteRef: fix_time_series_chart_bug
+RemoteSha: 8d72f024e41b87ab64fae5b15b6cf00109f48557
+GithubRepo: PerformanceAnalytics
+GithubUsername: naturalsmen
+GithubRef: fix_time_series_chart_bug
+GithubSHA1: 8d72f024e41b87ab64fae5b15b6cf00109f48557

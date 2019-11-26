@@ -1,0 +1,30 @@
+Package: xml2
+Version: 0.1.2
+Title: Parse XML
+Description: Work with XML files using a simple, consistent interface. Built on
+  top of the 'libxml2' C library.
+Authors@R: c(
+    person("Hadley", "Wickham", , "hadley@rstudio.com", c("aut", "cre")),
+    person("Jeroen", "Ooms", role = "ctb"),
+    person("RStudio", role = "cph"),
+    person("R Foundation", role = "ctb",
+      comment = "Copy of R-project homepage cached as example")
+    )
+URL: https://github.com/hadley/xml2/issues/
+BugReports: https://github.com/hadley/xml2/issues/
+Depends: R (>= 3.1.0)
+Imports: Rcpp
+LinkingTo: Rcpp (>= 0.11.4.6), BH
+Suggests: testthat, curl
+License: GPL (>= 2)
+NeedsCompilation: yes
+Packaged: 2015-09-01 18:33:51 UTC; hadley
+Author: Hadley Wickham [aut, cre],
+  Jeroen Ooms [ctb],
+  RStudio [cph],
+  R Foundation [ctb] (Copy of R-project homepage cached as example)
+Maintainer: Hadley Wickham <hadley@rstudio.com>
+Repository: CRAN
+Date/Publication: 2015-09-01 21:03:33
+Built: R 3.2.4; x86_64-w64-mingw32; 2016-03-15 01:43:19 UTC; windows
+Archs: i386, x64

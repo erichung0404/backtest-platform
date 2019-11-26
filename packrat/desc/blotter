@@ -1,0 +1,45 @@
+Package: blotter
+Type: Package
+Title: Tools for Transaction-Oriented Trading Systems Development
+Version: 0.12.4
+Date: 2017-08-16 $Date$
+Author: Peter Carl [aut],
+    Brian G. Peterson [aut, cre],
+    Joshua Ulrich [ctb],
+    Jasen Mackie [ctb],
+    Daniel Cegielka [ctb],
+    Dirk Eddelbuettel [ctb],
+    Jan Humme [ctb],
+    Lance Levenson [ctb],
+    Ben McCann [ctb],
+    Jeff Ryan [ctb],
+    Garrett See [ctb],
+    Wolfgang Wu [ctb]
+Maintainer: Brian G. Peterson <brian@braverock.com>
+Description: Transaction infrastructure for defining
+    instruments, transactions, portfolios and accounts for
+    trading systems and simulation. Provides portfolio
+    support for multi-asset class and multi-currency
+    portfolios.  Actively maintained and developed.
+License: GPL-3
+LazyLoad: yes
+Depends: R (>= 3.0.0), xts (>= 0.10-0), FinancialInstrument(>= 0.6.3),
+        PerformanceAnalytics, quantmod
+Imports: zoo, TTR, graphics, methods, stats, utils, boot, foreach
+Suggests: Hmisc, RUnit,
+URL: https://r-forge.r-project.org/projects/blotter/
+Copyright: (c) 2008-2017
+ByteCompile: TRUE
+RoxygenNote: 6.0.1.9000
+Built: R 3.2.5; x86_64-w64-mingw32; 2018-03-16 09:14:10 UTC; windows
+Archs: i386, x64
+RemoteType: github
+RemoteHost: api.github.com
+RemoteRepo: blotter
+RemoteUsername: braverock
+RemoteRef: master
+RemoteSha: 5720a41789ce1a971011373fd9355faf33ec90ed
+GithubRepo: blotter
+GithubUsername: braverock
+GithubRef: master
+GithubSHA1: 5720a41789ce1a971011373fd9355faf33ec90ed

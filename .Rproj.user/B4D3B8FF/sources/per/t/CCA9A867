@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1568246385089.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "764765869",
+    "id" : "CCA9A867",
+    "lastKnownWriteTime" : 1568305552,
+    "last_content_update" : 1568305552521,
+    "path" : "~/Developer/Web-Development/backtest-platform/ui.R",
+    "project_path" : "ui.R",
+    "properties" : {
+        "cursorPosition" : "228,62",
+        "scrollLine" : "220"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

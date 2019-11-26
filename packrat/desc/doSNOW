@@ -1,0 +1,26 @@
+Package: doSNOW
+Type: Package
+Title: Foreach Parallel Adaptor for the 'snow' Package
+Version: 1.0.14
+Authors@R: c(person("Rich", "Calaway", role="cre",
+					email = "richcala@microsoft.com"), 
+             person("Revolution Analytics", role=c("aut","cph")),
+			 person("Stephen", "Weston", role="aut"))
+Description: Provides a parallel backend for the %dopar% function using
+        Luke Tierney's snow package.
+Depends: R (>= 2.5.0), foreach(>= 1.2.0), iterators(>= 1.0.0), snow(>=
+        0.3.0), utils
+Suggests: compiler, RUnit, caret, mlbench, rpart
+License: GPL-2
+Author: Rich Calaway [cre],
+  Revolution Analytics [aut, cph],
+  Stephen Weston [aut]
+Maintainer: Rich Calaway <richcala@microsoft.com>
+Repository: CRAN
+Repository/R-Forge/Project: dosnow
+Repository/R-Forge/Revision: 27
+Repository/R-Forge/DateTimeStamp: 2015-10-13 20:31:49
+Date/Publication: 2015-10-14 09:53:50
+NeedsCompilation: no
+Packaged: 2015-10-13 20:45:25 UTC; rforge
+Built: R 3.2.4; ; 2016-03-15 01:50:26 UTC; windows
